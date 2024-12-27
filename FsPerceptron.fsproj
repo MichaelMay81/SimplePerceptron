@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Helpers.fs"/>
+        <Compile Include="Perceptron2/Perceptron2.fs"/>
+        <Compile Include="Perceptron2/TestInclusiveOr.fs"/>
+        <Compile Include="PerceptronN/PerceptronN.fs"/>
+        <Compile Include="PerceptronN/TestColorBrightness.fs"/>
+        <Compile Include="Program.fs"/>
+    </ItemGroup>
+
+</Project>
